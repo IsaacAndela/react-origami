@@ -1,0 +1,63 @@
+.fold {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4em;
+	height: 6em;
+	transform-style: preserve-3d;
+	transition: transform 1000ms;
+}
+
+.noseFold--leftWingNose,
+.noseFold--leftNose {
+	transform-origin: 1.2em 0.8em;
+}
+.noseFold--rightWingNose,
+.noseFold--rightNose {
+	transform-origin: 2.8em 0.8em;
+}
+
+.wingFold--leftWing,
+.wingFold--leftWingNose {
+	transform-origin: 1.2em center;
+}
+
+.wingFold--rightWing,
+.wingFold--rightWingNose {
+	transform-origin: 2.8em center;
+}
+
+.fold--1.noseFold--rightWingNose,
+.fold--1.noseFold--rightNose {
+	transform: rotate3d(1, 1, 0, -180deg);
+}
+
+.fold--1.noseFold--leftWingNose,
+.fold--1.noseFold--leftNose {
+	transform: rotate3d(1, -1, 0, -180deg);
+}
+
+.fold--2.bodyFold--leftBody,
+.fold--2.bodyFold--leftWing,
+.fold--2.bodyFold--leftWingNose,
+.fold--2.bodyFold--leftNose {
+	transform: rotateY(84deg);
+}
+
+.fold--2.bodyFold--rightBody,
+.fold--2.bodyFold--rightWing,
+.fold--2.bodyFold--rightWingNose,
+.fold--2.bodyFold--rightNose {
+	transform: rotateY(-84deg);
+}
+
+.fold--3.wingFold--leftWing,
+.fold--3.wingFold--leftWingNose {
+	transform: rotateY(-88deg);
+}
+
+.fold--3.wingFold--rightWing,
+.fold--3.wingFold--rightWingNose {
+	transform: rotateY(88deg);
+}

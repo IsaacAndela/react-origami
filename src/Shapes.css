@@ -1,0 +1,24 @@
+.shape {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4em;
+	height: 6em;
+}
+
+.shape--front {
+	fill: hsl(0, 40%, 77%);
+}
+
+.shape--back {
+	fill: hsl(0, 40%, 61%);
+	transform: translateZ(-0.001px);
+}
+
+.shape-text {
+	font-size: 2rem;
+	font-family: tahoma, sans-serif;
+	font-weight: bold;
+	fill: hsl(0, 40%, 33%);
+}

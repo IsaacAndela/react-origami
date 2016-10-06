@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <g fill="none" fill-rule="evenodd">
+    <polygon points="300 100 400 200 400 100 300 100"/>
+    <polygon points="300 100 200 0 400 0 400 100 300 100"/>
+    <polygon points="300 100 300 600 400 600 400 200 300 100"/>
+    <polygon points="200 600 300 600 300 100 200 0"/>
+    <polygon points="100 100 200 0 0 0 0 100"/>
+    <polygon points="100 100 0 200 0 100 100 100"/>
+    <polygon points="100 100 100 600 0 600 0 200 100 100"/>
+    <polygon points="200 600 100 600 100 100 200 0"/>
+  </g>
+</svg>
